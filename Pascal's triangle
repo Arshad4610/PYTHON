@@ -1,5 +1,5 @@
 final=[]
-final.append(1)
+final.append([1])
 for i in range(5):
     newrow=[1]
     for j in range(i):
