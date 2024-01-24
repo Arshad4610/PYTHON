@@ -1,0 +1,12 @@
+final=[]
+final.append(1)
+for i in range(5):
+    newrow=[1]
+    for j in range(i):
+        newrow.append(final[i][j]+final[i][j+1])
+    newrow.append(1)
+    final.append(newrow)
+print(final)
+ 
+Output:
+      [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1], [1, 5, 10, 10, 5, 1]]
